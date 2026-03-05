@@ -26,7 +26,7 @@ description: Translate text using the MyMemory free API. Use when the user asks 
      curl --get 'https://api.mymemory.translated.net/get' \
        --data-urlencode "q=<TEXT>" \
        --data-urlencode "langpair=<SRC>|<TGT>" \
-       --data-urlencode 'de=feihong0808_test@2925.com'
+       --data-urlencode 'de=example@gmail.com'
      ```
 
 4. Parse response JSON and use `responseData.translatedText` as the final translation.
